@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jms="http://www.springframework.org/schema/jms"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:task="http://www.springframework.org/schema/task"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd  http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:jdbc.properties</value>
+				<value>classpath:config.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<context:annotation-config/>
+	<context:component-scan base-package="com.ats"/>
+
+	<bean id="dataSourceES" class="com.alibaba.druid.pool.DruidDataSource"
+		  destroy-method="close">
+		<property name="password" value="${oracle.axds.password}"/>
+		<property name="url" value="${oracle.axds.url}"/>
+		<property name="username" value="${oracle.axds.username}"/>
+		<property name="driverClassName" value="${oracle.axds.driver}"/>
+		<property name="minEvictableIdleTimeMillis" value="50000"/>
+		<property name="maxActive" value="10"/>
+		<property name="initialSize" value="5"/>
+		<property name="testWhileIdle" value="true"/>
+		<property name="timeBetweenEvictionRunsMillis" value="50000"/>
+		<property name="validationQuery" value="select 1 from dual"/>
+		<property name="poolPreparedStatements" value="true"/>
+		<property name="maxOpenPreparedStatements" value="100"/>
+	</bean>
+
+	<bean id="dataSourceHLHT" class="com.alibaba.druid.pool.DruidDataSource"
+		  destroy-method="close">
+		<property name="password" value="${oracle.hlht.password}"/>
+		<property name="url" value="${oracle.hlht.url}"/>
+		<property name="username" value="${oracle.hlht.username}"/>
+		<property name="driverClassName" value="${oracle.hlht.driver}"/>
+		<property name="minEvictableIdleTimeMillis" value="50000"/>
+		<property name="maxActive" value="10"/>
+		<property name="initialSize" value="5"/>
+		<property name="testWhileIdle" value="true"/>
+		<property name="timeBetweenEvictionRunsMillis" value="50000"/>
+		<property name="validationQuery" value="select 1 from dual"/>
+		<property name="poolPreparedStatements" value="true"/>
+		<property name="maxOpenPreparedStatements" value="100"/>
+	</bean>
+	<bean class="com.ats.job.server.CDACreateServer" id="cdaCreateServer">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+		<property name="jdbcTemplateHLHT" ref="jdbcTemplateHLHT"/>
+	</bean>
+	<!--<task:scheduled-tasks>-->
+	<!--<task:scheduled ref="cdaCreateServer" method="run" cron="${cdaCreate.cron}"/>-->
+	<!--</task:scheduled-tasks>-->
+	<bean class="com.ats.job.jsonpath.JsonHDSD001411" id="jsonPathCY">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001301" id="jsonHDSD001301">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001302" id="jsonHDSD001302">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001416" id="jsonHDSD001416">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001601" id="jsonHDSD001601">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001402" id="jsonHDSD001402">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001401" id="jsonHDSD001401">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001403" id="jsonHDSD001403">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001414" id="jsonHDSD001414">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001415" id="jsonHDSD001415">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001406" id="jsonHDSD001406">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001412" id="jsonHDSD001412">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001404" id="jsonHDSD001404">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001407" id="jsonHDSD001407">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001410" id="jsonHDSD001410">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001405" id="jsonHDSD001405">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001001" id="jsonHDSD001001">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD000703" id="jsonHDSD000703">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001006" id="jsonHDSD001006">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001004" id="jsonHDSD001004">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001002" id="jsonHDSD001002">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001005" id="jsonHDSD001005">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001003" id="jsonHDSD001003">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001409" id="jsonHDSD001409">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001408" id="jsonHDSD001408">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<bean class="com.ats.job.jsonpath.JsonHDSD001303" id="jsonHDSD001303">
+		<property name="jdbcTemplate" ref="jdbcTemplate"/>
+	</bean>
+	<!--&lt;!&ndash;<bean class="com.ats.job.server.CDAWebService" id="cdaWebServer"/>&ndash;&gt;-->
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSourceES"></property>
+	</bean>
+	<bean id="jdbcTemplateHLHT" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSourceHLHT"></property>
+	</bean>
+	<bean id="springContextsUtil" class="com.ats.job.tool.SpringContextsUtil"></bean>
+	<!--&lt;!&ndash; ActiveMQ 连接工厂 -->
+	<!-- 真正可以产生Connection的ConnectionFactory，由对应的 JMS服务厂商提供-->
+	<!-- 如果连接网络：tcp://ip:61616；未连接网络：tcp://localhost:61616 以及用户名，密码-->
+	<!--<bean id="amqConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">-->
+		<!--<property name="brokerURL" value="tcp://127.0.0.1:61616" />-->
+	<!--</bean>-->
+
+	<!--<bean id="connectionFactory1" class="org.springframework.jms.connection.CachingConnectionFactory">-->
+		<!--&lt;!&ndash; 目标ConnectionFactory对应真实的可以产生JMS Connection的ConnectionFactory &ndash;&gt;-->
+		<!--<property name="targetConnectionFactory" ref="amqConnectionFactory"></property>-->
+		<!--&lt;!&ndash; 同上，同理 &ndash;&gt;-->
+		<!--<constructor-arg ref="amqConnectionFactory" />-->
+		<!--&lt;!&ndash; Session缓存数量 &ndash;&gt;-->
+		<!--<property name="sessionCacheSize" value="100" />-->
+	<!--</bean>-->
+
+	<!--<bean id="recBingChengQueue" class="com.ats.job.server.RecBingCQueService"></bean>-->
+	<!--<bean id="recBingliQueue" class="com.ats.job.server.RecBingLQueService"></bean>-->
+	<!--&lt;!&ndash;&lt;!&ndash; 定义Queue监听器 &ndash;&gt;&ndash;&gt;-->
+	<!--<jms:listener-container destination-type="queue" container-type="default"-->
+							<!--connection-factory="connectionFactory1" acknowledge="auto">-->
+		<!--&lt;!&ndash; destination是队列或话题名称 &ndash;&gt;-->
+		<!--&lt;!&ndash; 默认注册bean名称，应该是类名首字母小写  &ndash;&gt;-->
+		<!--<jms:listener destination="bingliQueue" ref="recBingliQueue"/>-->
+		<!--<jms:listener destination="bingchengQueue" ref="recBingChengQueue"/>-->
+	<!--</jms:listener-container>-->
+</beans>

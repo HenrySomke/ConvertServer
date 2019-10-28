@@ -1,0 +1,18 @@
+{"cdaType":"OperationRecord",
+"describe":"手术记录",
+"recordId":"9bce1717-e339-4522-9bf5-8d0f4ccecc5e",
+"pid":"1933653",
+"messageText":{
+"patientInfo":{"name":"孟庆贵","sex":"男","age":"79岁","nativePlace":"","maritalStatus":"","nation":"","occupation":"","homePlace":"","address":"","admissionTime":"","dischargeTime":"","recordingTime":"","medicalHistoryProvider":"","telephone":""}
+,"preoperativeDiagnosis":"盆腔肿物",
+"postoperativeDiagnosis":"“膀胱壁囊性肿物”，决定行",
+"operativeName":"膀胱壁囊性肿物切除术，腹腔冲洗引流术，输尿管镜下左侧输尿管支架置入术",
+"operateStartTime":"2017年12月05日13时00分",
+"operateEndTime":"2017年12月05日17时20分",
+"anestheticMethod":"全麻",
+"anesthesiologist":"崔云凤",
+"descrOfOperative":"（体位、麻醉方式、术野准备、探查所见、引流物情况、术中病理、术中出现情况及处理等）患者取仰卧位，全麻生效后，术区常规消毒,铺无菌巾、单。取下腹正中切口长约20.0厘米，逐层切开入腹。附属探查：探查腹腔：腹腔大量血性，肝、胆、胃、结肠，腹壁未见异常。小肠粘连严重，小肠粘连多处有夹角，肿物位于盆腔，大小约10cm×20cm，两个，为间断连续，呈囊性，上端突入腹腔为游离状态，下端与膀胱顶壁关系密切、左后侧壁、左侧输尿管粘连，且关系密切，将膀胱挤压向右侧移位，请泌尿科李然伟教授台上会诊，行细针穿刺肿物可见内为黑褐色液体。术中诊断：“膀胱壁囊性肿物”，决定行：“肿物切开引流术，囊壁切除术，左侧输尿管支架置入术”。充分保护其余脏器，充分暴露肿物，探及第一个肿物切除多余囊壁，吸净囊肿内血性液体，充分止血后行温盐水进行创面冲洗无活动性出血，使用3-0可吸收线进行剩余囊壁及膀胱壁加固缝合加固膀胱壁，探查另一囊肿，以同种方式切除多余囊壁，吸净囊肿内血性液体，充分止血后行温盐水进行创面冲洗无活动性出血，使用3-0可吸收线进行剩余囊壁及膀胱壁加固缝合加固膀胱壁。继续膀胱未见异常，膀胱加压后未见尿液流出。使用5000ml温盐水进行腹腔冲洗，行腹腔留置防粘连材料，清点纱布及器械无误，逐层缝合关腹，使用输尿管镜行左侧输尿管支架植入术，效果满意。术终。术中顺利，麻醉效果满意,血压脉搏平稳。切除标本家属阅后送病理,术后病人安返病房。","operator":"李然伟、孙鹏达","assistantI":"赵术涛","assistantII":"李杰","recorder":"孙鹏达、李然伟",
+"auditor":"孙鹏达、李然伟",
+"emrRecord":{"count":0,"recid":"9bce1717-e339-4522-9bf5-8d0f4ccecc5e","pid":"1933653","babyTag":"0","modelType":"SSJL","modelId":"119809","modelCode":"79901","recName":"手术记录","recTime":"Dec 6, 2017 7:16:11 AM","recorder":"604172","abandonTag":0,"printTag":1,"printTime":"Jan 1, 2018 11:44:07 AM","modifier":"604172","modifyTime":"Jan 1, 2018 11:44:03 AM","ipid":6001722,"oldRecid":"12393aa3-52af-436e-bdc0-92e9a9a61ae8","yuanquid":"1","isSubmit":0,"diagModifier":"604172","syncStatus":"0","syncTime":"Aug 29, 2018 11:37:42 AM"}
+}
+}

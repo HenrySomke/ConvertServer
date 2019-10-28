@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ConvertServer:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CDAConvert_v1.0.0.0_20191028.war">
+      <element id="artifact" artifact-name="ConvertServer:war exploded" />
+    </root>
+  </artifact>
+</component>

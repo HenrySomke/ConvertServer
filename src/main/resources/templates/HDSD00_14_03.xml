@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:mif="urn:hl7-org:v3/mif"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:th="http://xmlns.jcp.org/xml/ns/persistence/orm"
+                  xsi:schemaLocation="urn:hl7-org:v3 ..\sdschemas\CDA.xsd">
+    <!--
+            ********************************************************
+             CDA Header
+            ********************************************************
+            -->
+    <realmCode code="CN"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040"/>
+    <templateId root="2.16.156.10011.2.1.1.64"/>
+
+    <!-- 文档流水号 -->
+    <id root="2.16.156.10011.1.1" th:attr="extension=${cdaData.documentUniqueId}"/>
+
+    <code code="C0044" codeSystem="2.16.156.10011.2.4" codeSystemName="卫生信息共享文档规范编码体系"/>
+
+    <title>抢救记录</title>
+
+    <!-- 文档机器生成时间 -->
+    <effectiveTime th:attr="value=${#dates.format(#dates.createNow(), 'yyyyMMddHHmmss')}"/>
+
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"
+                         displayName="正常访问保密级别"/>
+    <languageCode code="zh-CN"/>
+    <setId/>
+    <versionNumber/>
+
+    <!--文档记录对象（患者） [1..*] contextControlCode="OP"表示本信息可以被重载-->
+    <recordTarget typeCode="RCT" contextControlCode="OP">
+        <patientRole classCode="PAT">
+            <!--住院号标识-->
+            <id root="2.16.156.10011.1.12" th:attr="extension=${cdaData.customCol.DE01_00_014_00}"/>
+            <patient classCode="PSN" determinerCode="INSTANCE">
+                <!--患者身份证号-->
+                <id root="2.16.156.10011.1.3" th:attr="extension=${cdaData.customCol.DE02_01_031_00}"/>
+                <name th:text="${cdaData.customCol.DE02_01_039_00}"></name>
+                <administrativeGenderCode th:attr="code=${cdaData.customCol.DE02_01_040_00},displayName=${cdaData.customCol.DE02_01_040_00_NAME}" codeSystem="2.16.156.10011.2.3.3.4"
+                                          codeSystemName="生理性别代码表(GB/T 2261.1)" />
+                <!--1数据集里是年龄（年）、年龄（月）-->
+                <birthTime th:attr="value=${cdaData.customCol.DE02_01_005_01}"/>
+                <age unit="岁" th:attr="value=${cdaData.customCol.DE02_01_026_00}"/>
+            </patient>
+        </patientRole>
+    </recordTarget>
+
+    <!-- 文档创作者 -->
+    <author typeCode="AUT" contextControlCode="OP">
+        <time th:attr="value=${cdaData.customCol.DE02_01_039_00_JLSJ}"/>
+        <assignedAuthor classCode="ASSIGNED">
+            <id root="2.16.156.10011.1.7"  />
+            <code displayName="文档创作者"></code>
+            <assignedPerson>
+                <name th:text="${cdaData.customCol.DE02_01_039_00_JLZ}"></name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+
+    <!-- 保管机构 -->
+    <custodian typeCode="CST">
+        <assignedCustodian classCode="ASSIGNED">
+            <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.156.10011.1.5" th:attr="extension=${cdaData.customCol.DE08_10_052_00}"/>
+                <name th:text="${cdaData.customCol.DE08_10_052_00_NAME}"></name>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+
+    <!-- 签名 -->
+    <authenticator><!--签名日期时间-->
+        <time th:attr="value=${cdaData.customCol.DE09_00_053_00}"/>
+        <signatureCode/>
+        <assignedEntity>
+            <id root="2.16.156.10011.1.4"   />
+            <code displayName="医师签名"/>
+            <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                <name th:text="${cdaData.customCol.DE02_01_039_00_YSQM}"></name>
+                <professionalTechnicalPosition>
+                    <professionaltechnicalpositionCode th:attr="code=${cdaData.customCol.DE08_30_031_00},displayName=${cdaData.customCol.DE08_30_031_00_NAME}"
+                                                       codeSystem="2.16.156.10011.2.3.1.209"
+                                                       codeSystemName="专业技术职务类别代码表"></professionaltechnicalpositionCode>
+                </professionalTechnicalPosition>
+            </assignedPerson>
+        </assignedEntity>
+    </authenticator>
+
+    <!--讨论成员信息-->
+    <participant typeCode="CON">
+        <associatedEntity classCode="ECON">
+            <!--参加讨论人员名单-->
+            <associatedPerson>
+                <name th:text="${cdaData.customCol.DE08_30_032_00}"></name>
+            </associatedPerson>
+        </associatedEntity>
+    </participant>
+
+    <relatedDocument typeCode="RPLC">
+        <parentDocument>
+            <id/>
+            <setId/>
+            <versionNumber/>
+        </parentDocument>
+    </relatedDocument>
+
+    <componentOf>
+        <encompassingEncounter>
+            <code displayName="入院日期时间"/>
+            <effectiveTime xsi:type="IVL_TS" th:attr="value=${cdaData.customCol.DE06_00_092_00}"/>
+            <location>
+                <healthCareFacility>
+                    <serviceProviderOrganization>
+                        <asOrganizationPartOf classCode="PART">
+                            <!-- DE01.00.026.00  病床号 -->
+                            <wholeOrganization classCode="ORG" determinerCode="INSTANCE">
+                                <id root="2.16.156.10011.1.22"  />
+                                <name th:text="${cdaData.customCol.DE01_00_026_00}"></name>
+                                <!-- DE01.00.019.00  病房号 -->
+                                <asOrganizationPartOf classCode="PART">
+                                    <wholeOrganization classCode="ORG" determinerCode="INSTANCE">
+                                        <id root="2.16.156.10011.1.21" />
+                                        <name th:text="${cdaData.customCol.DE01_00_019_00}"></name>
+                                        <!-- DE08.10.026.00  科室名称 -->
+                                        <asOrganizationPartOf classCode="PART">
+                                            <wholeOrganization classCode="ORG" determinerCode="INSTANCE">
+                                                <id root="2.16.156.10011.1.26" />
+                                                <name th:text="${cdaData.customCol.DE08_10_026_00}"></name>
+                                                <!-- DE08.10.054.00  病区名称 -->
+                                                <asOrganizationPartOf classCode="PART">
+                                                    <wholeOrganization classCode="ORG" determinerCode="INSTANCE">
+                                                        <id root="2.16.156.10011.1.27" />
+                                                        <name th:text="${cdaData.customCol.DE08_10_054_00}"></name>
+                                                        <!--XXX医院 -->
+                                                        <asOrganizationPartOf classCode="PART">
+                                                            <wholeOrganization classCode="ORG"
+                                                                               determinerCode="INSTANCE">
+                                                                <id root="2.16.156.10011.1.5"
+                                                                    th:attr="extension=${cdaData.customCol.DE08_10_052_00}"/>
+                                                                <name th:text="${cdaData.customCol.DE08_10_052_00_NAME}"></name>
+                                                            </wholeOrganization>
+                                                        </asOrganizationPartOf>
+                                                    </wholeOrganization>
+                                                </asOrganizationPartOf>
+                                            </wholeOrganization>
+                                        </asOrganizationPartOf>
+                                    </wholeOrganization>
+                                </asOrganizationPartOf>
+                            </wholeOrganization>
+                        </asOrganizationPartOf>
+                    </serviceProviderOrganization>
+                </healthCareFacility>
+            </location>
+        </encompassingEncounter>
+    </componentOf>
+
+    <!--***************************************************
+                    文档体Body
+                    *******************************************************
+                    -->
+    <component>
+        <structuredBody>
+            <!--
+                ********************************************************
+                诊断章节
+                ********************************************************
+                -->
+            <!--诊断章节-->
+            <component>
+                <section>
+                    <code code="29548-5" displayName="Diagnosis" codeSystem="2.16.840.1.113883.6.1"
+                          codeSystemName="LOINC"/>
+                    <text/>
+
+                    <!--条目:疾病诊断名称-->
+                    <entry th:each="zdlist:${cdaData.customCol.HDSD00_14_03_DE05_01_024_00}">
+                        <observation classCode="OBS" moodCode="EVN ">
+                            <code code="DE05.01.025.00" displayName="疾病诊断名称" codeSystem="2.16.156.10011.2.2.1"
+                                  codeSystemName="卫生信息数据元目录"/>
+                            <value xsi:type="ST" th:text="${zdlist.DE05_01_024_00_NAME}"></value>
+                        </observation>
+                    </entry>
+
+                    <!--疾病诊断编码-->
+                    <entry th:each="zdlist:${cdaData.customCol.HDSD00_14_03_DE05_01_024_00}">
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="DE05.01.024.00" displayName="疾病诊断编码" codeSystem="2.16.156.10011.2.2.1"
+                                  codeSystemName="卫生信息数据元目录"/>
+                            <value xsi:type="CD" th:attr="code=${zdlist.DE05_01_024_00},displayName=${zdlist.DE05_01_024_00_NAME}"
+                                   codeSystem="2.16.156.10011.2.3.3.11" codeSystemName="ICD-10"/>
+                        </observation>
+                    </entry>
+                    <!--病情变换情况-->
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="DE05.10.134.00" displayName="病情变化情况" codeSystem="2.16.156.10011.2.2.1"
+                                  codeSystemName="卫生信息数据元目录"/>
+                            <value xsi:type="ST" th:text="${cdaData.customCol.DE05_10_134_00}"></value>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <!--
+                ********************************************************
+                治疗计划章节
+                ********************************************************
+                -->
+            <!--治疗计划章节 1..*-->
+            <component>
+                <section>
+                    <code code="18776-5" displayName="TREATMENT PLAN" codeSystem="2.16.840.1.113883.6.1"
+                          codeSystemName="LOINC"/>
+                    <text/>
+                    <!--注意事项-->
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN ">
+                            <code code="DE09.00.119.00" displayName="注意事项" codeSystem="2.16.156.10011.2.2.1"
+                                  codeSystemName="卫生信息数据元目录"/>
+                            <value xsi:type="ST" th:text="${cdaData.customCol.DE09_00_119_00}"></value>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <!--
+                ******************************************************
+                手术操作章节
+                ******************************************************
+                -->
+            <component>
+                <section>
+                    <code code="47519-4" displayName="HISTORY OF PROCEDURES" codeSystem="2.16.840.1.113883.6.1"
+                          codeSystemName="LOINC"/>
+                    <text/>
+                    <entry th:each="zdlist:${cdaData.customCol.HDSD00_14_03_DE06_00_093_00}">
+                        <!-- 1..1 手术及操作编码 -->
+                        <procedure classCode="PROC" moodCode="EVN">
+                            <code th:attr="code=${zdlist.DE06_00_093_00},displayName=${zdlist.DE06_00_093_00_NAME}" codeSystem="2.16.156.10011.2.3.3.12"
+                                  codeSystemName="手术(操作)代码表(ICD-9-CM)"/>
+                            <statusCode/>
+
+                            <!--手术操作目标部位名称DE06.00.187.00-->
+                            <targetSiteCode th:attr="code=${cdaData.customCol.DE06_00_187_00}"
+                                            codeSystem="2.16.156.10011.2.3.1.266" codeSystemName="操作部位代码表"></targetSiteCode>
+
+                    <!--手术及操作名称-->
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN ">
+                                    <code code="DE06.00.094.00" displayName="手术及操作名称" codeSystem="2.16.156.10011.2.2.1"
+                                          codeSystemName="卫生信息数据元目录"/>
+                                    <value xsi:type="ST" th:text="${zdlist.DE06_00_093_00_NAME}"></value>
+                                </observation>
+                            </entryRelationship>
+
+                            <!--介入物名称-->
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS " moodCode="EVN ">
+                                    <code code="DE08.50.037.00" displayName="介入物名称" codeSystem="2.16.156.10011.2.2.1"
+                                          codeSystemName="卫生信息数据元目录"/>
+                                    <value xsi:type="ST" th:text="${cdaData.customCol.DE08_50_037_00}"></value>
+                                </observation>
+                            </entryRelationship>
+
+                            <!--操作方法-->
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN ">
+                                    <code code="DE06.00.251.00" displayName="操作方法" codeSystem="2.16.156.10011.2.2.1"
+                                          codeSystemName="卫生信息数据元目录"/>
+                                    <value xsi:type="ST" th:text="${zdlist.DE06_00_093_00_NAME}"></value>
+                                </observation>
+                            </entryRelationship>
+
+                            <!--操作次数-->
+                            <entryRelationship typeCode="COMP ">
+                                <observation classCode="OBS" moodCode="EVN ">
+                                    <code code="DE06.00.250.00" displayName="操作次数" codeSystem="2.16.156.10011.2.2.1"
+                                          codeSystemName="卫生信息数据元目录"/>
+                                    <value xsi:type="PQ" th:attr="value=${cdaData.customCol.DE06_00_250_00}" unit="次"/>
+                                </observation>
+                            </entryRelationship>
+                        </procedure>
+                    </entry>
+
+                    <!--抢救措施-->
+                    <entry>
+                        <procedure classCode="ACT" moodCode="EVN ">
+                            <code code="DE06.00.094.00" displayName="抢救措施" codeSystem="2.16.156.10011.2.2.1"
+                                  codeSystemName="卫生信息数据元目录"/>
+                            <text xsi:type="ST" th:text="${cdaData.customCol.DE06_00_094_00}"></text>
+                        </procedure>
+                    </entry>
+
+                    <!--抢救开始日期时间-->
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="DE06.00.221.00" displayName="抢救开始日期时间" codeSystem="2.16.156.10011.2.2.1"
+                                  codeSystemName="卫生信息数据元目录"/>
+                            <value xsi:type="TS" th:attr="value=${cdaData.customCol.DE06_00_221_00}"/>
+                        </observation>
+                    </entry>
+
+                    <!--抢救结束日期时间-->
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="DE06.00.218.00" displayName="抢救结束日期时间" codeSystem="2.16.156.10011.2.2.1"
+                                  codeSystemName="卫生信息数据元目录"/>
+                            <value xsi:type="TS" th:attr="value=${cdaData.customCol.DE06_00_218_00}"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <!--
+                ******************************************************
+                实验室检查章节
+                ******************************************************
+                -->
+            <component>
+                <section >
+                    <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="STUDIES SUMMARY"/>
+                    <text/>
+                    <!--检查/检验项目-->
+                    <entry th:each="testlist:${cdaData.customCol.HDSD00_14_03_DE04_30_015_00}">
+                        <observation classCode="OBS " moodCode="EVN ">
+                            <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11" codeSystemName="卫生信息数据元目录"/>
+                            <value xsi:type="ST" th:text="${testlist.EXAMINAIM} "></value>
+                            <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+                                <observation classCode="OBS " moodCode="EVN ">
+                                    <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1" codeSystemName="卫生信息数据元目录"/>
+                                    <value xsi:type="ST" th:text="${testlist.ALL_RESULT}"></value>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+                                <observation classCode="OBS " moodCode="EVN ">
+                                    <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.3.3.11" codeSystemName="卫生信息数据元目录"/>
+                                    <value xsi:type="ST"   th:text="${testlist.DE04_30_015_00}"></value>
+                                </observation>
+
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+                                <observation classCode="OBS " moodCode="EVN ">
+                                    <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11" codeSystemName="卫生信息数据元目录"/>
+                                    <value xsi:type="CD" th:attr="code=${testlist.DE04_30_017_00},displayName=${testlist.DE04_30_017_00_NAME}" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查/检验结果代码表"></value>
+                                    <!--1.正常 2.异常 3.不确定-->
+                                </observation>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>

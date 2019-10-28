@@ -1,0 +1,986 @@
+<entry>
+    <observation classCode="OBS " moodCode="EVN ">
+        <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+              codeSystemName="卫生信息数据元目录"/>
+        <value xsi:type="ST">白球比例</value>
+        <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+            <observation classCode="OBS " moodCode="EVN ">
+                <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                      codeSystemName="卫生信息数据元目录"/>
+                <value xsi:type="ST">检查项目：白球比例 结果：1.1 单位： 参考值：1.5 - 2.5</value>
+            </observation>
+        </entryRelationship>
+        <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+            <observation classCode="OBS " moodCode="EVN ">
+                <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                      codeSystemName="卫生信息数据元目录"/>
+                <value xsi:type="ST">1.1</value>
+            </observation>
+        </entryRelationship>
+        <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+            <observation classCode="OBS " moodCode="EVN ">
+                <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                      codeSystemName="卫生信息数据元目录"/>
+                <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                       displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+            </observation>
+        </entryRelationship>
+    </observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">白蛋白</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：白蛋白 结果：37 单位：g/L 参考值：35 - 50</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">37 g/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">碱性磷酸酶</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：碱性磷酸酶 结果：62 单位：U/L 参考值：45 - 129</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">62 U/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">谷丙转氨酶</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：谷丙转氨酶 结果：18 单位：U/L 参考值：0 - 49</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">18 U/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">淀粉酶</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：淀粉酶 结果：47 单位：U/L 参考值：25 - 118</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">47 U/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">载脂蛋白A</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：载脂蛋白A 结果：0.96 单位：g/l 参考值：1.00 - 1.6</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">0.96 g/l</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">载脂蛋白B</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：载脂蛋白B 结果：0.93 单位：g/l 参考值：0.60 - 1.20</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">0.93 g/l</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">谷草转氨酶</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：谷草转氨酶 结果：13 单位：U/L 参考值：0 - 50</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">13 U/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">尿素氮</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：尿素氮 结果：8.60 单位：mmol/l 参考值：1.7 - 8.2</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">8.60 mmol/l</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">钙</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：钙 结果：2.30 单位：mmol/L 参考值：2.1 - 2.6</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">2.30 mmol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">胆固醇</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：胆固醇 结果：7.31 单位：mmol/L 参考值：0 - 5.2</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">7.31 mmol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">磷酸肌酸激酶</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：磷酸肌酸激酶 结果：30 单位：U/L 参考值：24 - 194</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">30 U/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">肌酸激酶同工酶</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：肌酸激酶同工酶 结果：15.00 单位：U/L 参考值：0 - 24</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">15.00 U/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">氯</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：氯 结果：90.0 单位：mmol/L 参考值：96 - 109</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">90.0 mmol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">肌酐</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：肌酐 结果：81.0 单位：umol/l 参考值：44 - 123</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">81.0 umol/l</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">直接胆红素</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：直接胆红素 结果：4.3 单位：umol/l 参考值：0 - 6.8</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">4.3 umol/l</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">谷氨酰转酞酶</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：谷氨酰转酞酶 结果：20 单位：U/L 参考值：0 - 73</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">20 U/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">球蛋白</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：球蛋白 结果：33.0 单位：g/L 参考值：20 - 35</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">33.0 g/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">葡萄糖</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：葡萄糖 结果：5.50 单位：mmol/l 参考值：3.9 - 6.1</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">5.50 mmol/l</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">高密度脂蛋白</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：高密度脂蛋白 结果：1.36 单位：mmol/l 参考值：1.04 - 1.74</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">1.36 mmol/l</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">间接胆红素</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：间接胆红素 结果：7.3 单位：umol/L 参考值：0 - 15</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">7.3 umol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">尿酸</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：尿酸 结果：201 单位：umol/L 参考值：90 -464</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">201 umol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">钾</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：钾 结果：4.10 单位：mmol/L 参考值：3.5 - 5.6</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">4.10 mmol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">乳酸脱氢酶</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：乳酸脱氢酶 结果：194 单位：U/L 参考值：109 - 245</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">194 U/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">低密度脂蛋白</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：低密度脂蛋白 结果：3.28 单位：mmol/L 参考值：0 - 3.12</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">3.28 mmol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">钠</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：钠 结果：143.0 单位：mmol/L 参考值：135 - 155</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">143.0 mmol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">谷草/谷丙</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：谷草/谷丙 结果：0.72 单位： 参考值：-</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">0.72</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">总胆红素</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：总胆红素 结果：11.6 单位：umol/L 参考值：0 - 21</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">11.6 umol/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">甘油三脂</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：甘油三脂 结果：2.31 单位：mmol/l 参考值：0 - 1.70</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">2.31 mmol/l</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">总蛋白</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：总蛋白 结果：70 单位：g/L 参考值：60 - 83</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">70 g/L</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">CD4细胞绝对计数</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：CD4细胞绝对计数 结果：264 单位：个/ul 参考值：414 - 1440</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">264 个/ul</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">CD8细胞绝对计数</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：CD8细胞绝对计数 结果：160 单位：个/ul 参考值：238 - 1250</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">160 个/ul</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">CD3细胞绝对计数</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：CD3细胞绝对计数 结果：444.00 单位：个/ul 参考值：770 - 2860</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">444.00 个/ul</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="2" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="异常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>
+<entry>
+<observation classCode="OBS " moodCode="EVN ">
+    <code code="DE04.30.020.00" displayName="检查/检验项目名称" codeSystem="2.16.156.10011.2.3.3.11"
+          codeSystemName="卫生信息数据元目录"/>
+    <value xsi:type="ST">CD4/CD8比例</value>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.009.00" displayName="检查/检验结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">检查项目：CD4/CD8比例 结果：1.65 单位： 参考值：0.7 - 2.87</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验定量结果-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.015.00" displayName="检查/检验定量结果" codeSystem="2.16.156.10011.2.2.1"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="ST">1.65</value>
+        </observation>
+    </entryRelationship>
+    <entryRelationship typeCode="COMP"><!--检查/检验结果代码-->
+        <observation classCode="OBS " moodCode="EVN ">
+            <code code="DE04.30.017.00" displayName="检查/检验结果代码" codeSystem="2.16.156.10011.2.3.3.11"
+                  codeSystemName="卫生信息数据元目录"/>
+            <value xsi:type="CD" code="1" codeSystem="2.16.156.10011.2.3.2.38" codeSystemName="检查（检验）结果代码表"
+                   displayName="正常"/><!--1.正常 2.异常 3.不确定-->
+        </observation>
+    </entryRelationship>
+</observation>
+</entry>

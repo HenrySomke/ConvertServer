@@ -1,0 +1,15 @@
+{"cdaType":"ConsultationRecord",
+"describe":"会诊记录",
+"recordId":"4321e953-f5d4-468d-9e3e-5e5253d5a8c3",
+"pid":"1942906",
+"messageText":
+{"consultateDept":"肝胆胰内科",
+"treatmentProcess":"：病史敬悉，患者腹痛、腹胀不明显。查体：上腹部无明显压痛。胰腺CT示胰腺周边渗出。血淀粉酶、脂肪酶、尿淀粉酶正常。建议：1.暂进食米汤，给予抑酸（奥美拉唑）、胰酶（乌司他丁）、补液、支持对症治疗，2.动态监测胰腺功能、离子、尿淀粉酶，复查腹部彩超，3.病情变化随诊。",
+"consultateView":"：1.暂进食米汤，给予抑酸（奥美拉唑）、胰酶（乌司他丁）、补液、支持对症治疗，2.动态监测胰腺功能、离子、尿淀粉酶，复查腹部彩超，3.病情变化随诊。",
+"consultatePhysician":"张倩",
+"consultateDate":"2017年12月30日16时00分",
+"auditor":"：\u003c",
+"emrRecord":
+{"count":0,"recid":"4321e953-f5d4-468d-9e3e-5e5253d5a8c3","pid":"1942906","babyTag":"0","modelType":"BC_HYJL","modelCode":"7338","modelId":"138698","recName":"会诊记录","recTime":"2017年12月30日16时00分","recorder":"320219","recorderTime":"Jan 1, 2018 10:50:39 AM","modifier":"320219","modifyTime":"Jan 1, 2018 11:19:52 AM","abandonTag":0,"printTag":1,"printTime":"Jan 7, 2018 11:15:43 PM","ipid":15077476,"oldRecid":"957cddd6-22df-4514-ad0b-f94cb0dfebf0","huanyebz":0,"yuanquid":"1","isSubmit":0,"syncStatus":"0","syncTime":"Sep 3, 2018 10:05:09 AM"}
+}
+}

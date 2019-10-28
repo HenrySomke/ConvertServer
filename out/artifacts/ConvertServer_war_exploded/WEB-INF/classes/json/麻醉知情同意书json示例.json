@@ -1,0 +1,19 @@
+{"cdaType":"AnesthesiaInformed",
+"describe":"麻醉知情同意书",
+"recordId":"1b4aa99b-d9d1-414d-a9e6-dcb66f1886c9",
+"pid":"1973940",
+"messageText":{
+	"patientInfo":{
+	"name":"刘文权","sex":"男","age":"42岁","nativePlace":"","maritalStatus":"","nation":"","occupation":"","homePlace":"","address":"","admissionTime":"","dischargeTime":"","recordingTime":"","medicalHistoryProvider":"","telephone":"","deptName":"关节外科"},
+	"patientId":"01122495",
+	"bedNumber":"08",
+	"anaesthesiaAccidents":"一、麻醉意外：按照《药典》规定使用麻醉药，麻醉常规操作，病人仍发生呼吸循环骤停，经抢救出现不良后果，甚至危及生命。二、术中低血压和心律失常致心脏骤停，高血压致心脑血管意外，危及生命。三、合并有内科疾病(如冠心病、脑梗塞等)的患者，于麻醉中疾病发作危及生命。四、全身麻醉术中、术后并发症1．气管内插管并发症1)气管插管困难、失败，致病人缺氧昏迷。2)气管插管过程中按常规操作，发生牙齿脱落、唇出血、声带损伤、喉痉挛等。3)拔管后喉痉挛、喉头水肿、声门下水肿，室息死亡。2．麻醉诱导过程中及拔出气管导管时发生呕吐、误吸导致下呼吸道梗阻，室息死亡。3．病人呼吸功能障碍导致缺氧、二氧化碳蓄积，危及生命。4．个体差异对麻醉药代谢速率不同导致术中知晓和术后苏醒延迟、呼吸抑制等。5．全麻药及肌松药的类过敏反应致低血压、支气管痉挛。五、局部麻醉术中、术后并发症1．局麻药的毒性反应，高敏反应，过敏反应。2．椎管内麻醉操作致脊神经根损伤。3．硬膜外腔麻醉所致的全脊髓麻醉导致呼吸循环骤停。4．椎管内麻醉不能阻滞内脏神经，存在内脏牵拉痛及内脏牵拉反射致低血压、呕吐等。5．腰麻术后头痛、尿潴留等。6．椎管内麻醉失败，改换麻醉方法。7．神经丛阻滞失败，改换麻醉方法。六、麻醉和手术需要行有创动、静脉监测时，发生血气胸，血管损伤致末梢缺血肢体坏死。七、与本病人相关的特殊情况：麻醉医生(签字盖章)","anestheticMethod":"","operationName":"","patientOpinion":"麻醉中可能出现的危险、并发症等情况，医师已向患者本人(患方家属)告知交待，患者方面充分考虑和理解可能遇到的风险，经权衡利弊，同意选择并接受该项诊疗服务。接受输血治疗过程中，如遇不能独立行使知情同意权力的情况，同意由代理人行知情同意权，具体委托见《患者知情同意授权委托书》。非医保消耗物品及药品是否愿意自己承担()。患者签字或画押",
+	"patientSign":"",
+	"agentSign":"",
+	"patientSignDate":"年月日",
+	"doctorSign":"",
+	"doctorSignDate":"年月日",
+	"emrRecord":{
+	"count":0,"recid":"1b4aa99b-d9d1-414d-a9e6-dcb66f1886c9","pid":"1973940","babyTag":"0","modelType":"ZQTYS","modelId":"33793","modelCode":"20782","recName":"麻醉知情同意书","recTime":"Mar 27, 2018 4:27:50 PM","recorder":"320337","abandonTag":0,"printTag":1,"printTime":"Mar 27, 2018 4:28:04 PM","modifier":"320337","modifyTime":"Mar 27, 2018 4:27:50 PM","ipid":6392554,"yuanquid":"1","isSubmit":0,"diagModifier":"320337","syncStatus":"0","syncTime":"Sep 5, 2018 8:44:01 AM"}
+	}
+	}

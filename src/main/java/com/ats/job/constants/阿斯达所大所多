@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3"
+                  xsi:schemaLocation="urn:hl7-org:v3 ..\sdschemas\SDA.xsd">
+    <realmCode code="CN"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040"/>
+    <templateId root="2.16.156.10011.2.1.1.71"/>
+    <id root="2.16.156.10011.1.1" extension="BE3CBA50-3F85-4B69-A557-AC024D574A61"/>
+    <code code="C0051" codeSystem="2.16.156.10011.2.4" codeSystemName="卫生信息共享文档规范编码体系"/>
+    <title>死亡病例讨论记录</title>
+    <effectiveTime value="20190802010801"/>
+    <confidentialityCode code="N" displayName="正常访问保密级别" codeSystem="2.16.840.1.113883.5.25"
+                         codeSystemName="Confidentiality"/>
+    <languageCode code="zh-CN"/>
+    <setId/>
+    <versionNumber/>
+    <recordTarget typeCode="RCT" contextControlCode="OP">
+        <patientRole classCode="PAT">
+            <id root="2.16.156.10011.1.12" extension="1456294"/>
+            <patient classCode="PSN" determinerCode="INSTANCE">
+                <id root="2.16.156.10011.1.3" extension="320502194807023012"/>
+                <name>江家钰</name>
+                <administrativeGenderCode code="1" displayName="男性" codeSystem="2.16.156.10011.2.3.3.4"
+                                          codeSystemName="生理性别代码表(GB/T 2261.1)"/>
+                <age unit="岁" value="70"/>
+            </patient>
+            <providerOrganization classCode="ORG" determinerCode="INSTANCE">
+                <asOrganizationPartOf classCode="PART">
+                    <effectiveTime value="20190731093829"/>
+                    <wholeOrganization>
+                        <addr>中心ICU</addr>
+                    </wholeOrganization>
+                </asOrganizationPartOf>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author typeCode="AUT" contextControlCode="OP">
+        <time value="20190731093829"/>
+        <assignedAuthor classCode="ASSIGNED">
+            <id root="2.16.156.10011.1.7" extension="81086"/>
+            <assignedPerson>
+                <name>臧守华</name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+    <custodian typeCode="CST">
+        <assignedCustodian classCode="ASSIGNED">
+            <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.156.10011.1.5" extension="46600272-9"/>
+                <name>苏州大学附属第一医院</name>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <authenticator>
+        <time value="20190731093829"/>
+        <signatureCode/>
+        <assignedEntity>
+            <id root="2.16.156.10011.1.4" extension="81906"/>
+            <code displayName="住院医师"/>
+            <assignedPerson>
+                <name>臧守华</name>
+                <professionalTechnicalPosition>
+                    <professionaltechnicalpositionCode code="1" codeSystem="2.16.156.10011.2.3.1.209"
+                                                       codeSystemName="专业技术职务类别代码表" displayName="正高"/>
+                </professionalTechnicalPosition>
+            </assignedPerson>
+        </assignedEntity>
+    </authenticator>
+    <authenticator>
+        <time value="20190731093829"/>
+        <signatureCode/>
+        <assignedEntity>
+            <id root="2.16.156.10011.1.4" extension="81086"/>
+            <code displayName="主治医师"/>
+            <assignedPerson>
+                <name>陈青</name>
+                <professionalTechnicalPosition>
+                    <professionaltechnicalpositionCode code="1" codeSystem="2.16.156.10011.2.3.1.209"
+                                                       codeSystemName="专业技术职务类别代码表" displayName="正高"/>
+                </professionalTechnicalPosition>
+            </assignedPerson>
+        </assignedEntity>
+    </authenticator>
+    <authenticator>
+        <time value="20190731093829"/>
+        <signatureCode/>
+        <assignedEntity>
+            <id root="2.16.156.10011.1.4" extension="81906"/>
+            <code displayName="主任医师"/>
+            <assignedPerson>
+                <name>臧守华</name>
+                <professionalTechnicalPosition>
+                    <professionaltechnicalpositionCode code="1" codeSystem="2.16.156.10011.2.3.1.209"
+                                                       codeSystemName="专业技术职务类别代码表" displayName="正高"/>
+                </professionalTechnicalPosition>
+            </assignedPerson>
+        </assignedEntity>
+    </authenticator>
+    <participant typeCode="CON">
+        <associatedEntity classCode="ECON">
+            <associatedPerson>
+                <name>臧守华</name>
+                <name>陈青</name>
+            </associatedPerson>
+        </associatedEntity>
+    </participant>
+    <participant typeCode="ORG">
+        <associatedEntity classCode="ECON">
+            <id root="2.16.156.10011.1.4" extension="81086"/>
+            <code displayName="主持人"/>
+            <associatedPerson>
+                <name>陈青</name>
+            </associatedPerson>
+        </associatedEntity>
+    </participant>
+    <relatedDocument typeCode="RPLC">
+        <parentDocument>
+            <id/>
+            <setId/>
+            <versionNumber/>
+        </parentDocument>
+    </relatedDocument>
+    <componentOf>
+        <encompassingEncounter>
+            <effectiveTime value="20190627093715"/>
+            <location>
+                <healthCareFacility>
+                    <serviceProviderOrganization>
+                        <asOrganizationPartOf classCode="PART">
+                            <wholeOrganization classCode="ORG" determinerCode="INSTANCE">
+                                <id root="2.16.156.10011.1.22" extension="+1"/>
+                                <name>+1床</name>
+                                <asOrganizationPartOf classCode="PART">
+                                    <wholeOrganization classCode="ORG" determinerCode="INSTANCE">
+                                        <id root="2.16.156.10011.1.21" extension="5"/>
+                                        <name>5号房</name>
+                                        <asOrganizationPartOf classCode="PART">
+                                            <wholeOrganization classCode="ORG" determinerCode="INSTANCE">
+                                                <id root="2.16.156.10011.1.26" extension="1020700"/>
+                                                <name>麻醉手术科</name>
+                                                <asOrganizationPartOf classCode="PART">
+                                                    <wholeOrganization classCode="ORG" determinerCode="INSTANCE">
+                                                        <id root="2.16.156.10011.1.27" extension="1020701"/>
+                                                        <name>中心ICU</name>
+                                                        <asOrganizationPartOf classCode="PART">
+                                                            <wholeOrganization classCode="ORG"
+                                                                               determinerCode="INSTANCE">
+                                                                <id root="2.16.156.10011.1.5" extension="46600272-9"/>
+                                                                <name>苏州大学附属第一医院</name>
+                                                            </wholeOrganization>
+                                                        </asOrganizationPartOf>
+                                                    </wholeOrganization>
+                                                </asOrganizationPartOf>
+                                            </wholeOrganization>
+                                        </asOrganizationPartOf>
+                                    </wholeOrganization>
+                                </asOrganizationPartOf>
+                            </wholeOrganization>
+                        </asOrganizationPartOf>
+                    </serviceProviderOrganization>
+                </healthCareFacility>
+            </location>
+        </encompassingEncounter>
+    </componentOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <code displayName="死亡原因"/>
+                    <text/>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="DE05.01.025.00" codeSystem="2.16.156.10011.2.2.1" codeSystemName="卫生信息数据元目录"
+                                  displayName="直接死亡原因名称"/>
+                            <value xsi:type="ST">梗阻性肥厚型心肌病</value>
+                            <entryRelationship typeCode="CAUS">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="DE05.01.021.00" codeSystem="2.16.156.10011.2.2.1"
+                                          codeSystemName="卫生信息数据元目录" displayName="直接死亡原因编码"/>
+                                    <value xsi:type="CD" code="I42.100" displayName="梗阻性肥厚型心肌病"
+                                           codeSystem="2.16.156.10011.2.3.3.11" codeSystemName="ICD-10"/>
+                                </observation>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="29548-5" displayName="Diagnosis" codeSystem="2.16.840.1.113883.6.1"
+                          codeSystemName="LOINC"/>
+                    <text/>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="DE05.01.025.00" codeSystem="2.16.156.10011.2.2.1" codeSystemName="卫生信息数据元目录"
+                                  displayName="死亡诊断名称"/>
+                            <value xsi:type="ST">梗阻性肥厚型心肌病</value>
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="DE05.01.021.00" codeSystem="2.16.156.10011.2.2.1"
+                                          codeSystemName="卫生信息数据元目录" displayName="死亡诊断编码"/>
+                                    <value xsi:type="CD" code="I42.100" codeSystem="2.16.156.10011.2.3.3.11"
+                                           codeSystemName="ICD-10" displayName="梗阻性肥厚型心肌病"/>
+                                </observation>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="DE06.00.181.00" codeSystem="2.16.156.10011.2.2.1" codeSystemName="卫生信息数据元目录"
+                          displayName="死亡讨论记录"/>
+                    <text>-</text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <code code="DE06.00.018.00" codeSystem="2.16.156.10011.2.2.1" codeSystemName="卫生信息数据元目录"
+                          displayName="主持人总结意见"/>
+                    <text>-</text>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>

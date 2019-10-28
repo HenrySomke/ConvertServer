@@ -1,0 +1,15 @@
+{"cdaType":"DischargeRecord",
+"describe":"出院记录",
+"recordId":"5c6ac537-a8a4-462b-9d2e-3dc198108f4e",
+"pid":"1944489",
+"messageText":{
+"patientInfo":{"name":"宋丽敏","sex":"女","age":"","nativePlace":"","maritalStatus":"","nation":"汉族","occupation":"在职","homePlace":"","address":"","admissionTime":"","dischargeTime":"","recordingTime":"2018年01月02日06时17分","medicalHistoryProvider":"","telephone":""},
+"admissionDiag":"1胎0产孕396/7周纵产式LOA待产胎膜早破妊娠合并羊水过多",
+"dischargeDiag":"1胎1产孕396/7周纵产式LOA胎膜早破妊娠合并羊水过多剖宫产术后：患者宋丽敏,女,34岁，因“孕396/7周，阴道少量流液2小时”于2017-12-3006","dischargeReason":"\u003c\u003e治愈\u003c/\u003e",
+"dischargeSituation":"：    患者宋丽敏,女,34岁，因“孕39 6/7周，阴道少量流液2小时”于2017-12-30 06:09入院。于2017年12月30日在麻醉下行剖宫产术，术中以LOA位娩出一名女性活婴，重3280克。新生儿出生后一分钟Apgar评分9分，出生后五分钟Apgar评分10分。术中经过顺利，麻醉满意，出血约150ml。术后安返病房，宫缩良好，给予预防感染、缩宫素促进宫缩、补液、降压及对症治疗。嘱控制输液速度，进全流食，平卧6小时，勤按摩双下肢以预防血栓形成，密切监测患者生命体征、宫缩及阴道出血情况以及新生儿一般生命体征。现患者剖宫产术后第3日，一般状态良好，切口换药无红肿及渗出,愈合良好，子宫复旧良好，宫底脐下三横指。阴道少量血性恶露，色暗红，无异味,复查血常规未见明显异常。今日患者及家属要求出院，考虑患者术后恢复良好，同意其今日出院，嘱其出院注意事项。    出院医嘱或注意事项：   1、注意休息，加强营养，休难产产假。   2、禁止盆浴及性生活42天，严格避孕2年。   3、母乳喂养，新生儿定期预防接种。   4、产后42天复查。       5、有变化随诊。                                           记录者签名:\u003c记录医师\u003e\u003c/记录医师\u003e审核者签名:\u003c审核医师\u003e\u003c/审核医师\u003e",
+"dischargeOrder":"。：1、注意休息，加强营养，休难产产假。2、禁止盆浴及性生活42天，严格避孕2年。3、母乳喂养，新生儿定期预防接种。4、产后42天复查。5、有变化随诊。:\u003c记录医师记录医师:\u003c审核医师审核医师",
+"recorder":"",
+"auditor":"",
+"admissionDays":"3",
+"emrRecord":{"count":0,"recid":"5c6ac537-a8a4-462b-9d2e-3dc198108f4e","pid":"1944489","babyTag":"0","modelType":"CYJL","modelId":"112638","modelCode":"75884","recName":"出院记录","recTime":"Jan 2, 2018 6:19:55 AM","recorder":"321057","abandonTag":0,"printTag":1,"printTime":"Jan 2, 2018 6:27:50 AM","modifier":"321057","modifyTime":"Jan 2, 2018 6:27:38 AM","ipid":6002790,"oldRecid":"c16d45db-ae51-4db5-85d6-82cce73e80e3","yuanquid":"1","isSubmit":0,"diagModifier":"321057","syncStatus":"0","syncTime":"Aug 30, 2018 10:16:23 AM"}
+}}

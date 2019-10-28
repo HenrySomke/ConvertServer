@@ -1,0 +1,19 @@
+{"cdaType":"OperationInform",
+"describe":"手术治疗知情同意书",
+"recordId":"fe81e6d3-c3c6-4e21-a666-97a1c964b61c",
+"pid":"3944999",
+"messageText":{
+	"patientInfo":{
+	"name":"","sex":"","age":"","nativePlace":"","maritalStatus":"","nation":"","occupation":"","homePlace":"","address":"","admissionTime":"2018-01-02","dischargeTime":"","recordingTime":"","medicalHistoryProvider":"","telephone":""},"operationMode":"白内障摘除+人工晶体植入手术（　）",
+	"operationAccidents":"1、麻醉意外，眼心反射，呼吸心跳骤停，心脑血管意外，或原有疾病加重危及生命。2、术中出血，术后感染，伤口不愈合或延期愈合。术中暴发性脉络膜上腔出血，严重者需行眼球摘除术。3、若晶体悬韧带断裂，后囊膜破裂需缝襻植入人工晶体。如人工晶体无法植入，需二次手术植入或配镜解决，若晶状体皮质或核掉入玻璃体内，需行玻璃体切割术。皮质残留，需前房注吸残存皮质。4、术后视力不提高、下降，甚至无光感，视力丧失。5、由于术前手术眼视力差或存在轻度的隐性或显性斜视，手术后因视力提高了，可能会出现复视，头晕等症状。6、术后角膜内皮失代偿，角膜水肿、混浊；术后瞳孔变形、移位。散光、眩光、蓝视症、斜视、屈光不正，且目前置换的人工晶体一般不具备调节能力，术后根据需要可能要佩戴眼镜。7、人工晶体多为终身使用，但在特殊情况下如",
+	"operationIndication":"",
+	"preoperativeDiagnosis":"年龄相关性白内障　",
+	"patientSign":"",
+	"agentSign":"",
+	"patientSignDate":"",
+	"doctorSign":"",
+	"doctorSignDate":"",
+	"emrRecord":{"count":0,"recid":"fe81e6d3-c3c6-4e21-a666-97a1c964b61c","pid":"3944999","babyTag":"0","modelType":"SSZQTYS","modelId":"130908","modelCode":"80004","recName":"手术治疗知情同意书","recTime":"Jan 2, 2018 9:06:57 AM","recorder":"320874","abandonTag":0,"printTag":1,"printTime":"Jan 2, 2018 9:07:00 AM","modifier":"320874","modifyTime":"Jan 2, 2018 9:06:57 AM","ipid":6003604,"yuanquid":"3","isSubmit":0,"diagModifier":"320874","syncStatus":"0","syncTime":"Aug 30, 2018 10:16:26 AM"
+	}
+	}
+	}

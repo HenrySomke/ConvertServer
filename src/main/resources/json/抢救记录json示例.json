@@ -1,0 +1,18 @@
+{"cdaType":"RescueRecord",
+"describe":"抢救记录",
+"recordId":"dca35658-faf9-4255-8258-8bea0ea92e3e",
+"pid":"1952699",
+"messageText":{
+"patientInfo":{
+"name":"吕彦萍","sex":"女","age":"54岁","nativePlace":"","maritalStatus":"","nation":"","occupation":"","homePlace":"","address":"","admissionTime":"","dischargeTime":"","recordingTime":"2018年01月22日00时44分","medicalHistoryProvider":"","telephone":""},
+"rescueStartDate":"2018-01-22-00:00",
+"rescueEndDate":"2018-01-22-01:50",
+"rescuePersonnel":"苏振中主治医师、值班经治医师及值班护士",
+"rescueMeasures":"：患者\u003c病人姓名吕彦萍病人姓名，\u003c性别女性别，\u003c就诊年龄54岁就诊年龄患者于凌晨00:00突发血氧降低，意识淡漠，呼之不应。查体：口唇、颜面、四肢末端发绀，胸廓动度减弱，双肺听诊呼吸音极弱，可闻及大量痰鸣音，多功能监护示：心率127次/分，血氧饱和度45%。立即给予调高氧流量、吸痰、静点尼可刹米治疗。同时邀请急救医学科急会诊，提检床头胸片，00:03多功能监护示：心率119次/分，血氧饱和度60%、血压：112/71mmHg、呼吸率：19次/分。给予球囊简易呼吸器辅助通气、叩背继续吸痰后，患者一般状态逐渐好转，查体：口唇、颜面及四肢发绀缓解，意识恢复清楚，双下肺听诊呼吸音弱，痰鸣音较前减少。00：23多功能监护示：心率103次/分，血氧饱和度87%、血压：125/81mmHg、患者病情危重，已反复向家属家属交代病情，其表示知情并理解，嘱患者家属勤翻身、叩背、吸痰，促进痰液引流，密切注意患者病情变化。：\u003c：\u003c",
+"recorder":"",
+"auditor":"",
+"emrRecord":{
+"count":0,"recid":"dca35658-faf9-4255-8258-8bea0ea92e3e","pid":"1952699","babyTag":"0","modelType":"BC_QJJL","modelCode":"47311","modelId":"70844","recName":"抢救记录","recTime":"2018年01月22日00时44分","recorder":"603844","recorderTime":"Jan 22, 2018 12:47:42 AM","modifier":"603844","modifyTime":"Jan 22, 2018 1:53:03 AM","abandonTag":0,"printTag":1,"printTime":"Jan 22, 2018 5:56:49 AM","ipid":15311037,"oldRecid":"22d0ebd2-76e9-4bd1-9fb9-a4af027930ca","huanyebz":0,"yuanquid":"1","isSubmit":0,"syncStatus":"0","syncTime":"Sep 4, 2018 9:23:27 AM"
+}
+}
+}

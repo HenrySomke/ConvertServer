@@ -1,0 +1,17 @@
+{"cdaType":"AdmissionRecord",
+"describe":"入院记录",
+"recordId":"30b1c85a-d922-46a5-9fd6-baa6f6bcc913",
+"pid":"1943678",
+"messageText":{
+"patientInfo":{"name":"张丽维","sex":"女","age":"32岁","nativePlace":"","maritalStatus":"已婚","nation":"汉族|01","occupation":"农民","homePlace":"吉林省","address":"","admissionTime":"","dischargeTime":"","recordingTime":"","medicalHistoryProvider":"","telephone":""}
+,"physicalExamination":{
+"text":"","temperature":"","pulse":"","breathing":"","diastolicPressure":"","systolicPressure":"","inchargeDate":""},"complaint":"人流术后停经3月余，阴道不规则流血10天。",
+"hpi":"该患平素月经不规律，165/1-2月，量中，色红，血块（-），痛经（+），LMP不详。患者3月余前于当地医院行“人工流产”，术后阴道无流血、腹痛。患者人流术后停经3月余，14天前就诊于当地医院，行妇科彩超：子宫大小86*49mm，宫底见大小为43*36mm不规则混合回声，内见多个囊泡状回声，CDFI、CFA：均可扫及丰富血流信号。超声诊断：宫内残留物待除外葡萄糖。建议转至上级医院就诊。13天前患者就诊于我院，查血HCG:32.17mIU/ml。行妇科彩超：子宫5.4*5.9*5.3cm，子宫左宫角部见4.0*3.3cm不均质稍强回声，形态欠规则，界限欠清，内见较丰富血流信号。超声印象诊断：子宫肌层改变，滋养细胞疾病？建议患者行宫腔镜检查，患者未做。未治疗。10天前患者开始出现阴道间断不规则流血，暗褐色，量少，伴下腹痛，未治疗。现患者为求进一步治疗再次来我院就诊，经检查门诊以“妊娠滋养细胞肿瘤？”收入院。病程中无发热，偶头晕，偶咳嗽，无咳痰，腹胀，尿频，无尿急、尿痛，无乏力、疲劳；饮食、睡眠可，大便正常，近期体重减轻（具体不详）。",
+"previousHistory":"10余年前于当地医院因“阑尾炎”开腹行“阑尾切除术”。“过敏性紫癜”病史7-8年，治疗后好转。否认高血压、心脏病、糖尿病、肾病病史；否认肝炎，结核等传染病史及其接触史；无其他手术及外伤，无输血及献血史。无药物及食物过敏史。",
+"personalHistory":"出生于吉林省。未到过疟疾、肺吸虫、血吸虫病等流行区。无特殊毒物接触史。否认性病及冶游史。无烟酒嗜好。","familyHistory":"否认家族遗传病史。",
+"menstrualHistory":"","obstetricHistory":"已婚12年，孕3产1，正常分娩1男婴，人工流产2次。爱人及儿子身体健康。","accessoryExamination":"妇科彩超（通榆县第一人民医院2017-12-13）：子宫大小86*49mm，宫底见大小为43*36mm不规则混合回声，内见多个囊泡状回声，CDFI、CFA：均可扫及丰富血流信号。超声诊断：宫内残留物待除外葡萄糖。血HCG（我院2017-12-14）:32.17mIU/ml。妇科彩超（我院2017-12-14）：子宫5.4*5.9*5.3cm，子宫左宫角部见4.0*3.3cm不均质稍强回声，形态欠规则，界限欠清，内见较丰富血流信号。超声印象诊断：子宫肌层改变，滋养细胞疾病？",
+"initialDiagnosis":"妊娠滋养细胞疾病？",
+"recordingPhysician":"",
+"emrRecord":{"count":0,"recid":"30b1c85a-d922-46a5-9fd6-baa6f6bcc913","pid":"1943678","babyTag":"0","modelType":"RYJL","modelId":"108029","modelCode":"72798","recName":"入院记录","recTime":"Dec 27, 2017 6:05:18 PM","recorder":"320230","abandonTag":0,"printTag":1,"printTime":"Jan 1, 2018 12:55:27 PM","modifier":"320230","modifyTime":"Jan 1, 2018 12:04:56 PM","ipid":6001748,"oldRecid":"63dc1b42-4a13-43f4-97cc-2a2cfab5e557","yuanquid":"1","isSubmit":0,"diagModifier":"320230","syncStatus":"1","syncTime":"Aug 29, 2018 11:37:43 AM"}
+}
+}

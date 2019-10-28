@@ -1,0 +1,17 @@
+{
+"cdaType":"PreoperativeDiscussion",
+"describe":"术前讨论记录",
+"recordId":"8d32b996-cf30-4c03-bbbd-d6481bb58205",
+"pid":"1943289",
+"messageText":{
+"patientInfo":{"nativePlace":"","occupation":"","homePlace":"","address":"","admissionTime":"","dischargeTime":"","recordingTime":"","medicalHistoryProvider":"","telephone":""},
+"host":"王旭东",
+"discussionPlace":"吉林大学普通外科疾病诊疗中心医生办公室",
+"participants":"王旭东主任、杨泽成、刘昊主治医师及组内其他医生。",
+"admissionDiag":"体检发现结肠恶性肿瘤2天",
+"nameAndWay":"因“体检发现结肠恶性肿瘤2天”于2017-12-26入院。拟于明日全麻下行“右半结肠癌根治术”。马志明主治医师：该病人可诊断为：“结肠癌”，提检相关检查，需要手术治疗，术前各项检查回报无手术绝对禁忌，待手术。王旭东主任：同意上述医生意见，积极做好术前准备，预防术中及术后的各种并发症的发生，术中应仔细解剖，认真操作，尽量减少出血及避免各种副损伤。记录医师：马志明审核医师：",
+"recorder":"",
+"auditor":"",
+"emrRecord":
+{"count":0,"recid":"8d32b996-cf30-4c03-bbbd-d6481bb58205","pid":"1943289","babyTag":"0","modelType":"BC_SQTLJL","modelCode":"74006","modelId":"131226","recName":"术前讨论记录","recTime":"2018年01月01日08时33分","recorder":"330718","recorderTime":"Jan 1, 2018 8:40:37 AM","modifier":"330718","modifyTime":"Jan 1, 2018 8:40:37 AM","abandonTag":0,"printTag":1,"printTime":"Jan 1, 2018 8:40:42 AM","ipid":15076291,"huanyebz":1,"yuanquid":"1","isSubmit":0,"syncStatus":"0","syncTime":"Aug 28, 2018 7:14:24 PM"}
+}}

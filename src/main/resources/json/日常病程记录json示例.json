@@ -1,0 +1,17 @@
+{"cdaType":"DailyProgressRecord",
+"describe":"日常病程记录",
+"recordId":"ce61e1c9-7525-487c-a76f-bc58e20ebc65",
+"pid":"1934253",
+"messageText":
+{
+"recordDate":"2017年12月20日10时01分",
+"hospitalization":"今日查房，患者一般状态尚可，无乏力，无恶心呕吐，无发热，无腹胀腹痛，无其他不适。给予护肝、保护胃黏膜、保护心脏等化疗辅助用药及洛铂单药增敏。未见明显化疗副反应。继续直线加速器治疗及阴道灌洗。密切观察患者病情，有变化随诊。：：",
+"recorder":"",
+"auditor":"",
+"emrRecord":
+{"count":0,"recid":"ce61e1c9-7525-487c-a76f-bc58e20ebc65","pid":"1934253","babyTag":"0","modelType":"BC_RCBCL","modelCode":"77270","modelId":"121536","recName":"日常病程记录","recTime":"2017年12月20日10时01分","recorder":"Y00077","recorderTime":"Jan 1, 2018 10:18:31 AM","modifier":"Y00077","modifyTime":"Jan 1, 2018 10:18:31 AM","abandonTag":0,"printTag":1,"printTime":"Jan 2, 2018 9:51:11 AM","ipid":15076989,"huanyebz":0,"yuanquid":"1","isSubmit":0,"syncStatus":"0","syncTime":"Aug 31, 2018 3:51:04 PM"
+}
+}
+}
+
+

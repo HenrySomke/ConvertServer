@@ -1,0 +1,14 @@
+{"cdaType":"SuperiorPhysicianCheckRecord",
+"describe":"张艳华主治医师查房记录",
+"recordId":"71d829a0-8ec6-49ec-bc5e-b30de38d601b",
+"pid":"5940548",
+"messageText":{
+"recordDate":"2017年12月30日10时13分",
+"assessmentPlan":":患者一般状态较差，消耗状态，意识不清楚，间断处于烦躁状态，不能言语，咳痰无力，未进食，尿量尚可，约1000ml左右，未排便。查体：血压124/80mmHg左右，意识不清楚，失语，双侧瞳孔等大同圆，直径约3mm，对光反射尚灵敏。双肺呼吸音粗，可闻及少量湿罗音，心率88次/分，节律尚规整，心音弱，各瓣膜听诊区未闻及杂音，腹部凹陷，双下肢无明显水肿。右上肢屈曲，右下肢外伸，左侧肢体肌张力增高，病理反射阳性。该患病情危重，反复向患者家属交待，患者家属对病情表示知情理解，继续目前治疗，密切观察患者病情变化。：\u003c",
+"recorder":"",
+"auditor":"",
+"emrRecord":{
+"count":0,"recid":"71d829a0-8ec6-49ec-bc5e-b30de38d601b","pid":"5940548","babyTag":"0","modelType":"BC_ZZYSCFJL","modelCode":"7327","modelId":"18888","recName":"张艳华主治医师查房记录","recTime":"2017年12月30日10时13分","recorder":"610448","recorderTime":"Jan 1, 2018 10:20:45 AM","modifier":"610448","modifyTime":"Jan 1, 2018 10:20:45 AM","abandonTag":0,"printTag":1,"printTime":"Jan 26, 2018 1:21:49 PM","ipid":15077003,"huanyebz":0,"yuanquid":"5","isSubmit":0,"syncStatus":"0","syncTime":"Aug 31, 2018 3:51:04 PM"
+}
+}
+}

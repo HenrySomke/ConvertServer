@@ -1,0 +1,15 @@
+{"cdaType":"FirstPostoperativeCourseRecord",
+"describe":"术后首次病程记录",
+"recordId":"d964dbe1-58ce-4798-aab6-704dcd718b69",
+"pid":"1936196",
+"messageText":
+{"patientInfo":
+{"name":"刘丽芬","sex":"女","age":"55岁","nativePlace":"","maritalStatus":"","nation":"","occupation":"","homePlace":"","address":"","admissionTime":"2017-12-05 15:35","dischargeTime":"","recordingTime":"2017年12月20日15时36分","medicalHistoryProvider":"","telephone":""},
+"diagnosticBasis":"\u003c主诉\u003e体检发现子宫肌瘤6天\u003c/主诉\u003e”于\u003c入院时间\u003e2017-12-05 15:35\u003c/入院时间\u003e入院。临床诊断为\u003c入院诊断\u003e子宫肌腺病、高血压、轻度贫血\u003c/入院诊断\u003e，于\u003c手术开始时间\u003e2017-12-20\u003c/手术开始时间\u003e在\u003c麻醉方式\u003e腰硬联合麻醉\u003c/麻醉方式\u003e下行【开腹全子宫加双附件切除术】。 手术简要经过：洗手探查腹腔见：子宫增大，10*10*9cm，质硬，双侧卵巢及双侧输卵管未见明显异常，行全子宫+双侧附件切除术。麻醉满意，手术经过顺利，出血约50ml，输液700ml，术后血压124/70mmHg，脉搏80次/分，尿液引流袋引出淡黄色尿液约200ml，患者术后安返病房。术后剖开子宫，见宫腔后壁近宫颈内口处有一大小约1.0*1.0*0.2cm的息肉样组织，质软，表面光滑，肌壁间可见两个较小肌瘤结节，直径均约1.0cm。全子宫及双附件经家属过目后送病理  术中诊断：子宫肌腺症、子宫内膜息肉、子宫肌瘤、高血压、轻度贫血  术后处理措施：给予Ⅰ级护理，禁食水，多功能心电监护（脉搏、呼吸、血压、血氧），持续低流量吸氧，液体静脉营养、抗生素预防感染等支持对症治疗，会阴冲洗保持外阴清洁。密切监测生命体征变化。   术后注意事项：指导患者家属协助按摩双下肢，预防术后下肢静脉血栓形成。6小时候后适当床上活动，排气后入半流食。密切观察病情变化。 补充临床诊断：             子宫内膜息肉             子宫肌瘤诊断依据：术后剖开宫体见宫腔后壁近宫颈内口处有一大小约1.0*1.0*0.2cm的息肉样组织，质软，表面光滑，肌壁间可见两个较小肌瘤结节，直径均约1.0cm。治疗原则：手术治疗 （已行）                                                       ",
+"operativeName":"下行【开腹全子宫加双附件切除术】。 ",
+"recordTime":"2017年12月20日15时36分",
+"recorder":"",
+"emrRecord":{
+"count":0,"recid":"d964dbe1-58ce-4798-aab6-704dcd718b69","pid":"1936196","babyTag":"0","modelType":"BC_SSHXJ","modelCode":"42638","modelId":"70355","recName":"术后首次病程记录","recTime":"2017年12月20日15时36分","recorder":"320226","recorderTime":"Dec 20, 2017 3:37:13 PM","modifier":"320226","modifyTime":"Jan 1, 2018 11:04:48 AM","abandonTag":0,"printTag":1,"printTime":"Jan 1, 2018 11:34:26 AM","ipid":15077372,"oldRecid":"d7a6fdd0-b4eb-4122-82fb-0b58304c918f","huanyebz":1,"yuanquid":"1","isSubmit":0,"syncStatus":"0","syncTime":"Aug 31, 2018 3:51:06 PM"}
+}
+}

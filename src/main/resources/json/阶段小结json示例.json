@@ -1,0 +1,16 @@
+{"cdaType":"FirstProgressRecord",
+"describe":"阶段小结",
+"recordId":"0c3bb965-0538-4674-81d2-79713e3ccff8",
+"pid":"1924367",
+"messageText":{
+"patientInfo":{
+"name":"毕亚男","sex":"女","age":"34岁","nativePlace":"","maritalStatus":"","nation":"","occupation":"","homePlace":"","address":"","admissionTime":"2017-11-02 09:56","dischargeTime":"","recordingTime":"2017年12月02日10时22分","medicalHistoryProvider":"","telephone":""},
+"complaint":"宫颈恶性肿瘤",
+"treatmentProcess":"：该患因5天前体检发现宫颈占位，就诊我院妇科门诊，明确诊断宫颈恶性肿瘤。病理示：中分化鳞状细胞癌。现为求放射治疗来我院就诊，门诊以“宫颈恶性肿瘤”收入院。病程中患者精神状态良好，偶有下腹部隐痛，无恶心、呕吐，无咳嗽、咳痰，无心悸、气短，无乏力、胸闷、头晕，无发热、盗汗，无尿频、尿急、尿痛及排尿困难，无肛门坠胀感，饮食及睡眠良好，体重无明显改变。入院后提检各项检查，给予抗肿瘤增强免疫力、护肝、保护胃黏膜、保护心脏等对症支持治疗及洛铂单药增敏。现患者一般状态尚可，无乏力，无恶心呕吐，无发热，无腹胀腹痛，无其他不适。现靶区剂量：36Gy/18f。继续当前方案化疗。：\u003c记录医师记录医师：\u003c审核医师审核医师",
+"recorder":"",
+"auditor":"",
+"emrRecord":{
+"count":0,"recid":"0c3bb965-0538-4674-81d2-79713e3ccff8","pid":"1924367","babyTag":"0","modelType":"BC_JDXJ","modelCode":"7339","modelId":"50536","recName":"阶段小结","recTime":"2017年12月02日10时22分","recorder":"Y00077","recorderTime":"Jan 1, 2018 10:31:45 AM","modifier":"Y00077","modifyTime":"Jan 1, 2018 10:31:45 AM","abandonTag":0,"printTag":1,"printTime":"Jan 2, 2018 9:12:16 AM","ipid":15077109,"huanyebz":0,"yuanquid":"1","isSubmit":0,"syncStatus":"0","syncTime":"Aug 31, 2018 3:51:04 PM"
+}
+}
+}

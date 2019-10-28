@@ -1,0 +1,22 @@
+{"cdaType":"SpecialExaminationInformed",
+"describe":"ICU科特殊检查知情同意书",
+"recordId":"9569e7e4-da2d-4865-b4b7-68a31f325c63",
+"pid":"101025175",
+"messageText":{
+	"patientInfo":{
+	"name":"于华","sex":"女","age":"47岁","nativePlace":"","maritalStatus":"","nation":"","occupation":"","homePlace":"","address":"","admissionTime":"","dischargeTime":"","recordingTime":"","medicalHistoryProvider":"","telephone":"","deptName":""},
+	"patientId":"",
+	"sickRoomId":"",
+	"bedNumber":"",
+	"diseaseDiagnosis":"",
+	"therapeuticPurpose":"姓名：\u003c病人姓名\u003e于华\u003c/病人姓名\u003e性别：\u003c性别\u003e女\u003c/性别\u003e年龄:\u003c就诊年龄\u003e47岁\u003c/就诊年龄\u003e输血目的：        输血史：\u003c有无选择\u003e不详\u003c/有无选择\u003e孕      产     输血成分：        临床论断\u003c入院诊断\u003e*异常子宫出血\u003c/入院诊断\u003e输血前检查：ALT   UL；HBsAg   ；Anti-HBs  ；HBeAg   ；Anti-HBe    ；Anti-HBc  ； Anti-HCV  ； Anti- HCV1/2   ；梅毒     ；输血治疗包括输全血、成分血，是临床治疗的重要措施之一，是临床抢救急危重患者生命行之有效的手段     但是输血存在一定的风险，可能发生输血反应及感染经血传播病。     虽然我院使用的血液，均已按照卫生部有关规定进行检测，但由于当前科技水平的限制，输血仍有某些不能预测或者不能防止的输血反应和输血传染病。输血时可能发生的主要状况如下。1、过敏反应                                    2、发热反应3、感染肝炎（乙肝、丙肝等）                    4、感染艾滋病、梅毒5、感染疟疾                                    6、巨细胞病毒或EB病毒感染7、引起的其他疾病  在您及家属或监护然了解了上述可能发生的情况后，如同意输血治疗，请在下面签字。受血者（家属/监护人）签字:                        年  月   日医     师       签     字:\u003c记录医师\u003e\u003c/记录医师\u003e年  月   日备注：",
+	"operationAccidents":"",
+	"patientSign":"",
+	"patientSignDate":"",
+	"doctorSign":"",
+	"doctorSignDate":"",
+	"emrRecord":{
+	"count":0,"recid":"9569e7e4-da2d-4865-b4b7-68a31f325c63","pid":"101025175","babyTag":"0","modelType":"ZQTYS","modelId":"1337","modelCode":"1065","recName":"ICU科特殊检查知情同意书","recTime":"Aug 27, 2018 10:41:49 AM","recorder":"321016","abandonTag":0,"printTag":1,"printTime":"Aug 27, 2018 10:42:03 AM","modifier":"321016","modifyTime":"Aug 27, 2018 10:41:49 AM","ipid":7106143,"yuanquid":"1","isSubmit":0,"diagModifier":"321016","syncStatus":"0","syncTime":"Sep 5, 2018 11:23:04 AM"
+	}
+	}
+	}
